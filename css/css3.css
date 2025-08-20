@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+    width: 400px;
+    height: 200px;
+}
+
+.item-list {
+    max-width: 100%;
+    margin: auto;
+}
+
+.item-list .item-select  {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.item-list .item-select h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.item-list .item-select p {
+    margin-bottom: 50px;
+}
+
+.item-list .item-select .item-car{
+    display: inline-block;
+    width: 25%;
+}
+
+.item-list .item-select .item-car h2 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+.item-list .item-select .item-car i {
+    display: block;
+    margin-bottom: 10px;
+    color: gray;
+    text-align: left;
+    font-size: 12px;
+}
+
+.item-list .item-select .item-car em {
+    color: black;
+    font-weight: 900;
+}
+
+.item-list .item-select .item-car .text {
+    text-align: left;
+    color: gray;
+    margin-top: 10px;
+}
+
+
+hr {
+    background-color: black;
+    height: 1px;
+    opacity: 5%;
+    margin-top: -40px;
+}
+
+a {
+    display: block;
+    text-align: left;
+    margin-top: -40px;
+    background-color: rgb(14, 14, 118);
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    width: 100px;
+}
+
+a:hover{
+    background-color: rgb(40, 158, 205);
+}
+
+
